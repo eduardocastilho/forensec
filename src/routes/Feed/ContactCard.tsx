@@ -16,16 +16,6 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contact
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.x && (
-          <a
-            href="https://x.com/duca404"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillX className="icon" />
-            <div className="name">x</div>
-          </a>
-        )}
         {CONFIG.profile.github && (
           <a
             href={`https://github.com/${CONFIG.profile.github}`}
