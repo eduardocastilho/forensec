@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Eduardo Castilho",
+    name: "Forensec",
     image: "/profile.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Infrastructure Analyst",
-    bio: "Cybersecurity, DFIR, OSINT.",
+    role: "Cybersecurity, DFIR, OSINT.",
+    //bio: "Cybersecurity, DFIR, OSINT.",
     linkedin: "ecastilho",
     github: "eduardocastilho",
   },
