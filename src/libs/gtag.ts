@@ -1,5 +1,5 @@
 import { CONFIG } from "site.config"
-export const GA_TRACKING_ID = CONFIG.googleAnalytics.config.measurementId
+export const GA_TRACKING_ID = "G-KMXECL6ZZ8"
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url: any) => {
